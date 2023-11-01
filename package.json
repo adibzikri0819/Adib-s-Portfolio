@@ -47,6 +47,7 @@
   "devDependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "autoprefixer": "^10.4.16",
+    "css-minimizer-webpack-plugin": "^5.0.1",
     "netlify-cli": "^16.9.3",
     "postcss": "^8.4.31"
   }
