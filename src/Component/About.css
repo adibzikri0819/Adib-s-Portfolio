@@ -1,0 +1,517 @@
+
+
+  .about_me_title{
+    text-align: center;
+    font-size: 40px;
+    
+  }
+  
+  
+  .about_me_pic {
+    border-radius: 2rem;
+    width: 400px;
+    height: 400px;
+    margin-left: 100px;
+  }
+
+  .about_me_container {
+    gap: 4rem;
+    height: 90%;
+    margin-top: 200px;
+    padding-bottom: 70px;
+    padding-top: 70px;
+  }
+  
+  .about_me_pic-container {
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+  }
+
+  .about_experience_container{
+    width: 400px;
+    height: fit-content;
+    position: absolute;
+    border-radius: 2rem;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-color: rgb(163, 163, 163);
+    margin-bottom: -1rem;
+    margin-top: 20rem;
+    margin-right: -2rem;
+    top: 110%;
+    right: 40%;
+    text-align: center;
+  }
+
+  .about_education_container{
+    width: 400px;
+    height: fit-content;
+    position: absolute;
+    border-radius: 2rem;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-color: rgb(163, 163, 163);
+    margin-bottom: -1rem;
+    margin-top: 20rem;
+    margin-right: -10rem;
+    top: 110%;
+    right: 20%;
+    text-align: center;
+  }
+
+  .text_container{
+    position: absolute;
+    margin-bottom: 2rem;
+    margin-top:30rem;
+    margin-left: 34rem;
+    top: 110%;
+    right: 10%;
+    justify-content: justify;
+  }
+
+/*@media screen and (min-width: 768px) {
+  .about_me_title {
+    background-color: red;
+    font-size: 20px;
+  }
+
+  .about_me_pic {
+    max-width: 60%;
+    background-color: red;
+  }
+  
+}*/
+
+  // Tablet = 768px
+  /*@media screen and (min-width: 375px) and (max-width: 768px) {
+    .about_me_title {
+      background-color: blue !important;
+    }
+
+    .about_me_pic{
+      max-width: 60% !important;
+    }
+  }*/
+
+  // Mobile = 375px
+  /*@media screen and (max-width: 375px) {
+
+    .about_me_title {
+      background-color: yellow;
+    }
+    .about_me_pic{ 
+      max-width: 40%;
+      
+    }
+  }*/
+
+ 
+  
+  @media screen and (max-width: 1400px) {
+    .about_me_container{
+      display: flex;
+      
+    }
+
+    .about_experience_container{
+      width: 400px;
+      height: fit-content;
+      position: absolute;
+      border-radius: 2rem;
+      border: rgb(53, 53, 53) 0.1rem solid;
+      border-color: rgb(163, 163, 163);
+      margin-bottom: -1rem;
+      margin-top: 20rem;
+      margin-right: -2rem;
+      top: 110%;
+      right: 40%;
+      text-align: center;
+    }
+  
+    .about_education_container{
+      width: 400px;
+      height: fit-content;
+      position: absolute;
+      border-radius: 2rem;
+      border: rgb(53, 53, 53) 0.1rem solid;
+      border-color: rgb(163, 163, 163);
+      margin-bottom: -1rem;
+      margin-top: 20rem;
+      margin-right: -10rem;
+      top: 110%;
+      right: 20%;
+      text-align: center;
+    }
+  
+ 
+  }
+  
+  @media screen and (max-width: 1200px) {
+  .about_me_container{
+    display: flex;
+      flex-direction: column;
+      height: 100%;
+      width: 35%;
+      margin: auto;
+      padding-bottom: 200px;
+  }
+
+  .about_me_pic{
+    max-width: 100%;
+      max-height: auto;
+      margin: 0 auto 2rem;
+    
+  }
+
+  .about_experience_container{
+   top: 1615px;
+   margin-top: 5px;
+   margin-right: 140px;
+  }
+
+  .about_education_container{
+    top: 1615px;
+    margin-top: 5px;
+    margin-right: -50px;
+  }
+
+  .text_container{
+    position: absolute;
+    text-align: justify;
+    top: 1310px;
+    margin-right: 78px;
+    width: 69%
+    
+    
+    
+  }
+
+  }
+
+  @media screen and (max-width: 1100px) {
+    .about_me_container{
+      display: flex;
+        flex-direction: column;
+        height: 100%;
+        width: 35%;
+        margin: auto;
+        padding-bottom: 200px;
+    }
+  
+    .about_me_pic{
+      max-width: 100%;
+        max-height: auto;
+        margin: 0 auto 2rem;
+      
+    }
+  
+    .about_experience_container{
+     top: 1615px;
+     margin-top: 5px;
+     margin-right: 120px;
+    }
+  
+    .about_education_container{
+      top: 1615px;
+      margin-top: 5px;
+      margin-right: -80px;
+    }
+  
+    .text_container{
+      position: absolute;
+      text-align: justify;
+      top: 1300px;
+      margin-right: 38px;
+      width: 74%
+      
+      
+      
+    }
+  
+    }
+/*
+  // Laptop / Desktop size = 1280px
+  @media screen and (max-width: 1280px) {
+    .about_me_pic{
+      width: 100%;
+      height:auto;
+        margin: 0 auto 2rem;
+      
+    }
+  }
+*/
+/*
+  .about_education_container{
+    margin-right: -115px;
+  }
+
+  .text_container {
+    width: 82%;
+    margin-right: -13px;
+    text-align: justify;
+  }
+
+  */
+
+  @media screen and (max-width: 1000px) {
+    .about_me_container{
+      display: flex;
+        flex-direction: column;
+        height: 100%;
+        width: 35%;
+        margin: auto;
+        padding-bottom: 200px;
+    }
+  
+    .about_me_pic{
+      max-width: 100%;
+        max-height: auto;
+        margin: 0 auto 2rem;
+      
+    }
+  
+    .about_experience_container{
+     top: 1615px;
+     margin-top: 5px;
+     margin-right: 140px;
+    }
+  
+    .about_education_container{
+      top: 1615px;
+      margin-top: 5px;
+      margin-right: -80px;
+    }
+  
+    .text_container{
+      position: absolute;
+      text-align: justify;
+      top: 1310px;
+      margin-right: 38px;
+      width: 79%
+      
+      
+      
+    }
+  
+    }
+  
+  @media screen and (max-width: 900px) {
+    .about_me_container{
+      display: flex;
+      flex-direction: column;
+      height: auto;
+      width: 63%;
+      margin: auto;
+      padding-bottom: 400px
+      
+    }
+
+    
+    .about_me_pic{
+      max-width: 100%;
+      margin-left: 80px;
+      
+    }
+
+   .about_experience_container{
+      margin-right: -110px;
+      margin-top: -10px;
+   }
+
+   .about_education_container{
+    margin-top: 160px;
+    margin-right: 70px;
+   }
+
+    .text_container{
+      text-align: justify;
+      margin-top: 620px;
+      margin-right: 160px;
+      width: 44%
+    }
+  }
+
+  @media screen and (max-width: 800px) {
+    .about_me_container{
+      display: flex;
+      flex-direction: column;
+      height: auto;
+      width: 63%;
+      margin: auto;
+      padding-bottom: 400px
+      
+    }
+
+    .about_me_pic{
+      max-width: 100%;
+      margin-left: 60px;
+      
+    }
+
+   .about_experience_container{
+      margin-right: -140px;
+      margin-top: -10px;
+   }
+
+   .about_education_container{
+    margin-top: 160px;
+    margin-right: 20px;
+   }
+
+    .text_container{
+      text-align: justify;
+      margin-top: 620px;
+      margin-right: 110px;
+      width: 49%
+    }
+  }
+
+  @media screen and (max-width: 700px) {
+    .about_me_container{
+      display: flex;
+      flex-direction: column;
+      height: auto;
+      width: 63%;
+      margin: auto;
+      padding-bottom: 400px
+      
+    }
+
+    .about_me_pic{
+      max-width: 100%;
+      margin-left: 30px;
+      
+    }
+
+   .about_experience_container{
+      margin-right: -140px;
+      margin-top: -10px;
+   }
+
+   .about_education_container{
+    margin-top: 155px;
+    margin-right: -1px;
+   }
+
+    .text_container{
+      text-align: justify;
+      margin-top: 610px;
+      margin-right: 70px;
+      width: 57%
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .about_me_container{
+      display: flex;
+      flex-direction: column;
+      height: auto;
+      width: 63%;
+      margin: auto;
+      padding-bottom: 400px
+      
+    }
+
+    .about_me_pic{
+      max-width: 100%;
+      margin: auto;
+    }
+
+   .about_experience_container{
+    margin-top: -10px;
+      margin-right: -140px;
+   }
+
+   .about_education_container{
+    margin-top: 160px;
+    margin-right: -20px;
+   }
+
+    .text_container{
+      text-align: justify;
+      margin-top: 620px;
+      margin-right: 40px;
+      width: 67%
+    }
+  }
+
+  @media screen and (max-width: 500px){
+    
+    .about_me_container{
+      display: flex;
+      flex-direction: column;
+      height: auto;
+      width: 73%;
+      margin: auto;
+      padding-bottom: 400px
+      
+    }
+
+    .about_me_title{
+      margin-left: -30px;
+    }
+
+    .about_me_pic{
+      max-width: 100%;
+      margin: auto;
+      margin-left: -10px;
+      
+    }
+
+    .about_experience_container{
+      margin-top: -10px;
+      margin-right: -150px;
+   }
+
+   .about_education_container{
+    margin-top: 160px;
+    margin-right: -50px;
+   }
+
+   .text_container{
+    text-align: justify;
+    margin-top: 620px;
+    margin-right: 10px;
+    width: 77%
+  }
+  }
+
+  @media screen and (max-width: 400px){
+    
+    .about_me_container{
+      display: flex;
+      flex-direction: column;
+      height: auto;
+      width: 73%;
+      margin: auto;
+      padding-bottom: 400px
+      
+    }
+
+    .about_me_title{
+      margin-left: 20px;
+    }
+
+    .about_me_pic{
+      max-width: 100%;
+      margin: auto;
+      margin-left: 20px;
+      
+    }
+
+    .about_experience_container{
+      margin-top: -10px;
+      margin-right: -180px;
+   }
+
+   .about_education_container{
+    margin-top: 160px;
+    margin-right: -100px;
+   }
+
+   .text_container{
+    text-align: justify;
+    margin-top: 620px;
+    margin-right: -43px;
+    width: 95%
+  }
+  }

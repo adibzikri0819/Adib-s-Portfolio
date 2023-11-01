@@ -1,0 +1,328 @@
+.experience_container {
+  padding: 50px;
+  margin-top: 100px;
+}
+
+.experience_containers{
+  gap: 2rem;
+}
+  
+  .experience_title {  
+  text-align: center;
+  font-size: 40px;
+  }
+
+  .experience_frontend_container {
+    
+    background: white;
+    border-radius: 2rem;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-color: rgb(163, 163, 163);
+    margin: auto;
+    margin-left: 140px;
+    width: 550px;
+    height: fit-content;
+    
+  }
+  
+
+
+ .box {
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-left:90px;
+  justify-content: space-around;
+  gap: 1.5rem;
+  
+}
+.box>* {
+  flex: 1 1 80px;
+}
+
+.box img {
+  width: 25px;
+  height: 25px;
+  
+}
+
+.frontend_bullet_one {
+  display: inline-flex;
+      vertical-align: top;
+      margin-left: 20px;
+      font-weight: bold;
+}
+
+.frontend_bullet_two {
+  margin-left: 45px;
+  line-height: 10px;
+}  
+ 
+
+  .experience_backend_container {
+    background: white;
+    border-radius: 2rem;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-color: rgb(163, 163, 163);
+    margin: auto;
+    margin-top: -408px;
+    margin-left: 720px;
+    width: 550px;
+    height: fit-content;
+  }
+
+  @media screen and (max-width: 1400px) {
+    .experience_frontend_container{
+      margin-left: 77px;
+    }
+
+    .experience_backend_container{
+      margin-left: 657px;
+    }
+  }
+  
+  @media screen and (max-width: 1200px) {
+    .experience_container{
+      margin-top: 10rem;
+    }
+
+    .experience_frontend_container{
+      width: 45%;
+      margin-left: 50px;
+      
+    }
+
+    .box{
+      margin-left: 50px;
+      
+    }
+
+
+    .experience_backend_container{
+      width: 45%;
+      height: 410px;
+      margin-top: -410px;
+      margin-left: 36rem;
+            
+    }
+  }
+
+  @media screen and (max-width: 1100px){
+    .experience_frontend_container{
+      width: 45%;
+      margin-left: 30px
+    }
+
+    .experience_backend_container{
+      width: 45%;
+      height: 410px;
+      margin-top: -410px;
+      margin-left: 32rem;
+            
+    }
+  }
+
+
+  @media screen and (max-width: 1000px){
+    .experience_frontend_container{
+      width: 45%;
+      margin-left: 30px
+    }
+
+    .experience_backend_container{
+      width: 45%;
+      height: 410px;
+      margin-top: -410px;
+      margin-left: 29rem;
+            
+    }
+  }
+
+  @media screen and (max-width: 900px) {
+    .experience_container {
+      width: 100%;
+    }
+
+    .experience_title{
+      margin-left: -120px;
+    }
+
+    .box{
+      display: flex;
+      flex-direction: row;
+      margin-left: 20px;
+      gap: 3rem;
+    }
+
+    .experience_frontend_container{
+      width: 45%;
+      height: 490px;
+      margin-left: -20px
+    }
+    
+    .experience_backend_container{
+      width: 45%;
+      height: 490px;
+      margin-left: 410px;
+      margin-top: -492px;
+    }
+  }
+
+  @media screen and (max-width: 800px) {
+    .experience_container {
+      width: 100%;
+    }
+
+    .experience_title{
+      margin-left: -120px;
+    }
+
+    .box{
+      display: flex;
+      flex-direction: row;
+      margin-left: 20px;
+      gap: 3rem;
+    }
+
+    .experience_frontend_container{
+      width: 45%;
+      height: 490px;
+      margin-left: -10px
+    }
+    
+    .experience_backend_container{
+      width: 45%;
+      height: 490px;
+      margin-left: 380px;
+      margin-top: -492px;
+    }
+  }
+
+  @media screen and (max-width: 700px) {
+    .experience_container {
+      width: 100%;
+    }
+
+    .experience_title{
+      margin-left: -120px;
+    }
+
+    .box{
+      display: flex;
+      flex-direction: row;
+      margin-left: 20px;
+      gap: 3rem;
+    }
+
+    .experience_frontend_container{
+      width: 45%;
+      height: 690px;
+      margin-left: -10px
+    }
+    
+    .experience_backend_container{
+      width: 45%;
+      height: 690px;
+      margin-left: 340px;
+      margin-top: -692px;
+    }
+
+    
+    
+
+  }
+  
+  @media screen and (max-width: 600px) {
+    .experience_container {
+      width: 100%;
+    }
+
+    .experience_title{
+      margin-left: -120px;
+    }
+
+    .box{
+      display: flex;
+      flex-direction: row;
+      margin-left: 20px;
+      gap: 1rem;
+    }
+
+    .experience_frontend_container{
+      width: 75%;
+      height: 400px;
+      margin-left: 20px
+    }
+    
+    .experience_backend_container{
+      width: 75%;
+      height: 400px;
+      margin-left: 20px;
+      margin-top: 32px;
+    }
+
+    
+    
+
+  }
+
+  @media screen and (max-width: 500px) {
+    .experience_container {
+      width: 100%;
+    }
+
+    .experience_title{
+      margin-left: -120px;
+    }
+
+    .box{
+      display: flex;
+      flex-direction: row;
+      margin-left: 50px;
+      gap: 2.0rem;
+    }
+
+    .experience_frontend_container{
+      width: 65%;
+      height: 600px;
+      margin-left: 35px
+    }
+    
+    .experience_backend_container{
+      width: 65%;
+      height: 600px;
+      margin-left: 35px;
+      margin-top: 32px;
+    }
+  }
+
+  @media screen and (max-width: 400px) {
+    .experience_container {
+      width: 100%;
+    }
+
+    .experience_title{
+      margin-left: -120px;
+    }
+
+    .box{
+      display: flex;
+      flex-direction: row;
+      margin-left: 50px;
+      gap: 2.0rem;
+    }
+
+    .experience_frontend_container{
+      width: 75%;
+      height: 600px;
+      margin-left: -5px;
+    }
+    
+    .experience_backend_container{
+      width: 75%;
+      height: 600px;
+      margin-left: -5px;
+      margin-top: 32px;
+    }
+  }

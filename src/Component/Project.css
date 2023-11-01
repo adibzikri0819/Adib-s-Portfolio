@@ -1,0 +1,232 @@
+
+
+.project_container {
+  padding: 20px;
+  margin-top: 100px;
+  }
+  
+.project_title {
+  text-align: center;
+  font-size: 40px;
+}
+
+.manganese_container {
+  background: white;
+    border-radius: 2rem;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-color: rgb(163, 163, 163);
+    margin: auto;
+    margin-left: 380px;
+    width: 350px;
+    height: 400px;
+}
+
+.manganese_pic {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 2rem;
+  margin-top: 40px;
+  width: 300px;
+  height: 220px;
+  object-fit: cover;
+}
+
+.comingsoon_pic {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 2rem;
+  margin-top: 40px;
+  width: 300px;
+  height: 220px;
+  object-fit: cover;
+}
+
+.button-div {
+  display: flex;
+  justify-content: center;
+}
+
+  .todolist_container {
+    background: white;
+    border-radius: 2rem;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-color: rgb(163, 163, 163);
+    margin-top: -400px;
+    margin-left: 760px;
+    width: 350px;
+    height: 400px;
+  }
+
+  @media screen and (max-width: 1400px) {
+    .project_container{
+      height: fit-content;
+    }
+
+    .manganese_container{
+      margin-left: 315px;
+    }
+
+    .todolist_container{
+      margin-left: 690px;
+    }
+  }
+  
+  @media screen and (max-width: 1200px) {
+    .manganese_container{
+      margin-left: 210px;
+    }
+
+    .todolist_container{
+      margin-left: 600px;
+    }
+  }
+
+  @media screen and (max-width: 1000px) {
+    .manganese_container{
+      margin-left: 112px;
+    }
+
+    .todolist_container{
+      margin-left: 497px;
+    }
+  }
+
+  @media screen and (max-width: 900px) {
+    
+    .project_title{
+      margin-left: 30px;
+    }
+
+    .manganese_container{
+      width: 48%;
+      margin-left: 240px;
+    }
+
+
+    .manganese_pic{
+      width: 80%
+    }
+
+    .todolist_container{
+      width: 48%;
+      margin-top: 30px;
+      margin-left: 240px;
+    }
+  }
+
+  @media screen and (max-width: 800px) {
+    
+    .project_title{
+      margin-left: 30px;
+    }
+
+    .manganese_container{
+      width: 52%;
+      margin-left: 200px;
+    }
+
+
+    .manganese_pic{
+      width: 80%
+    }
+
+    .todolist_container{
+      width: 52%;
+      margin-top: 30px;
+      margin-left: 200px;
+    }
+  }
+
+  @media screen and (max-width: 700px) {
+    
+    .project_title{
+      margin-left: 30px;
+    }
+
+    .manganese_container{
+      width: 62%;
+      margin-left: 140px;
+    }
+
+
+    .manganese_pic{
+      width: 80%
+    }
+
+    .todolist_container{
+      width: 62%;
+      margin-top: 30px;
+      margin-left: 140px;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    
+    .project_title{
+      margin-left: 30px;
+    }
+
+    .manganese_container{
+      width: 72%;
+      margin-left: 80px;
+    }
+
+
+    .manganese_pic{
+      width: 80%
+    }
+
+    .todolist_container{
+      width: 72%;
+      margin-top: 30px;
+      margin-left: 80px;
+    }
+  }
+
+  @media screen and (max-width: 500px) {
+    
+    .project_title{
+      margin-left: -7px;
+    }
+
+    .manganese_container{
+      width: 72%;
+      margin-left: 60px;
+    }
+
+
+    .manganese_pic{
+      width: 80%
+    }
+
+    .todolist_container{
+      width: 72%;
+      margin-top: 30px;
+      margin-left: 60px;
+    }
+  }
+
+  @media screen and (max-width: 400px) {
+    
+    .project_title{
+      margin-left: -7px;
+    }
+
+    .manganese_container{
+      width: 86%;
+      margin-left: 30px;
+    }
+
+
+    .manganese_pic{
+      width: 80%
+    }
+
+    .todolist_container{
+      width: 86%;
+      margin-top: 30px;
+      margin-left: 30px;
+    }
+  }
