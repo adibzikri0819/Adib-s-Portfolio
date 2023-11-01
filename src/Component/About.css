@@ -68,41 +68,7 @@
     justify-content: justify;
   }
 
-/*@media screen and (min-width: 768px) {
-  .about_me_title {
-    background-color: red;
-    font-size: 20px;
-  }
 
-  .about_me_pic {
-    max-width: 60%;
-    background-color: red;
-  }
-  
-}*/
-
-  // Tablet = 768px
-  /*@media screen and (min-width: 375px) and (max-width: 768px) {
-    .about_me_title {
-      background-color: blue !important;
-    }
-
-    .about_me_pic{
-      max-width: 60% !important;
-    }
-  }*/
-
-  // Mobile = 375px
-  /*@media screen and (max-width: 375px) {
-
-    .about_me_title {
-      background-color: yellow;
-    }
-    .about_me_pic{ 
-      max-width: 40%;
-      
-    }
-  }*/
 
  
   
@@ -228,29 +194,7 @@
     }
   
     }
-/*
-  // Laptop / Desktop size = 1280px
-  @media screen and (max-width: 1280px) {
-    .about_me_pic{
-      width: 100%;
-      height:auto;
-        margin: 0 auto 2rem;
-      
-    }
-  }
-*/
-/*
-  .about_education_container{
-    margin-right: -115px;
-  }
 
-  .text_container {
-    width: 82%;
-    margin-right: -13px;
-    text-align: justify;
-  }
-
-  */
 
   @media screen and (max-width: 1000px) {
     .about_me_container{

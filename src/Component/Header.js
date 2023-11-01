@@ -3,7 +3,6 @@ import about_me_pic from '../assets/about_me_pic.jpg'
 import Button from '@mui/material/Button';
 import linkedin from '../assets/linkedin.svg'
 import github from '../assets/github.svg'
-import { HashLink as Link } from 'react-router-hash-link';
 import resume from '../assets/adib_resume.pdf'
 import './Header.css';
 

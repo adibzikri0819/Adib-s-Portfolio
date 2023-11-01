@@ -1,7 +1,6 @@
 import React from 'react'
 import './Project.css';
 import manganese_pic from '../assets/manganese_pic.png'
-import comingsoon_pic from '../assets/comingsoon_pic.jpg'
 import spiderman2_ps5 from '../assets/parallax_spiderman2.jpg'
 import Button from '@mui/material/Button';
 
